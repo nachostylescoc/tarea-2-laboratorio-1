@@ -1,0 +1,149 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{metas2002}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=fedc89b17820c6cedad0815e769673a3}{%
+           family={{MetAs, S.A. de C.V.}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Calle Jalisco 313, Col. Centro, Cd. Guzmán, Jalisco, México}%
+      }
+      \list{organization}{1}{%
+        {MetAs, S.A. de C.V.}%
+      }
+      \strng{namehash}{fedc89b17820c6cedad0815e769673a3}
+      \strng{fullhash}{fedc89b17820c6cedad0815e769673a3}
+      \strng{fullhashraw}{fedc89b17820c6cedad0815e769673a3}
+      \strng{bibnamehash}{fedc89b17820c6cedad0815e769673a3}
+      \strng{authorbibnamehash}{fedc89b17820c6cedad0815e769673a3}
+      \strng{authornamehash}{fedc89b17820c6cedad0815e769673a3}
+      \strng{authorfullhash}{fedc89b17820c6cedad0815e769673a3}
+      \strng{authorfullhashraw}{fedc89b17820c6cedad0815e769673a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{note}{Accedido el día XX de YYYY}
+      \field{subtitle}{Aceleración de la Gravedad}
+      \field{title}{La Guía MetAs, Año 02 Nº 05}
+      \field{year}{2002}
+      \verb{urlraw}
+      \verb https://www.metas.com.mx/guia_metas/archivos/La-Guia-MetAs-02-05-gl.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.metas.com.mx/guia_metas/archivos/La-Guia-MetAs-02-05-gl.pdf
+      \endverb
+    \endentry
+    \entry{fisicalab2025principio}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3117cd813f12abc390b7251146b34f00}{%
+           family={{FísicaLab}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{3117cd813f12abc390b7251146b34f00}
+      \strng{fullhash}{3117cd813f12abc390b7251146b34f00}
+      \strng{fullhashraw}{3117cd813f12abc390b7251146b34f00}
+      \strng{bibnamehash}{3117cd813f12abc390b7251146b34f00}
+      \strng{authorbibnamehash}{3117cd813f12abc390b7251146b34f00}
+      \strng{authornamehash}{3117cd813f12abc390b7251146b34f00}
+      \strng{authorfullhash}{3117cd813f12abc390b7251146b34f00}
+      \strng{authorfullhashraw}{3117cd813f12abc390b7251146b34f00}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido el 18 de octubre de 2025}
+      \field{title}{Principio Fundamental}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.fisicalab.com/apartado/principio-fundamental
+      \endverb
+      \verb{url}
+      \verb https://www.fisicalab.com/apartado/principio-fundamental
+      \endverb
+    \endentry
+    \entry{khan2019hooke}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=08ca4634d135ddb78263192c935dd829}{%
+           family={{Khan Academy}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{08ca4634d135ddb78263192c935dd829}
+      \strng{fullhash}{08ca4634d135ddb78263192c935dd829}
+      \strng{fullhashraw}{08ca4634d135ddb78263192c935dd829}
+      \strng{bibnamehash}{08ca4634d135ddb78263192c935dd829}
+      \strng{authorbibnamehash}{08ca4634d135ddb78263192c935dd829}
+      \strng{authornamehash}{08ca4634d135ddb78263192c935dd829}
+      \strng{authorfullhash}{08ca4634d135ddb78263192c935dd829}
+      \strng{authorfullhashraw}{08ca4634d135ddb78263192c935dd829}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido el 18 de octubre de 2025}
+      \field{title}{¿Qué es la ley de Hooke?}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://es.khanacademy.org/science/physics/work-and-energy/hookes-law/a/what-is-hookes-law
+      \endverb
+      \verb{url}
+      \verb https://es.khanacademy.org/science/physics/work-and-energy/hookes-law/a/what-is-hookes-law
+      \endverb
+    \endentry
+    \entry{serway2014physics}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=9142d7571fe4a7a87301eeced5dee93b}{%
+           family={Serway},
+           familyi={S\bibinitperiod},
+           given={Raymond\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9ae1a0dbf6fb8359590e8687bddfc7d6}{%
+           family={Jewett},
+           familyi={J\bibinitperiod},
+           given={John\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cengage Learning}%
+      }
+      \strng{namehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{fullhash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{fullhashraw}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{bibnamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorbibnamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authornamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorfullhash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorfullhashraw}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{9th}
+      \field{title}{Physics for Scientists and Engineers}
+      \field{year}{2014}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
