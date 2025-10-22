@@ -228,19 +228,19 @@ Entonces $\delta g$ está dado por:
 
 Calculando las derivadas parciales tenemos:
 \begin{equation}
-   \dfrac{\partial g}{\partial t} = -\dfrac{4d}{t^3 \sin(\theta)}
+   \dfrac{\partial g}{\partial t} = -\dfrac{2d}{t^2 \sin(\theta)}
 \end{equation}
 y
 \begin{equation}
-   \dfrac{\partial g}{\partial \theta} = -\dfrac{2d \cos(\theta)}{t^2 \sin^2(\theta)}
+   \dfrac{\partial g}{\partial \theta} = -\dfrac{2d \cos(\theta)}{t \sin^2(\theta)}
 \end{equation}
 
 Considerando que $\Delta t$ nos da 0.3 s y $\Delta \theta$ nos da 0.6 rad,
 evaluamos $t$ y $\theta$ con sus respectivos promedios $\bar{t} = 1.93$ s y
-$\bar{\theta} = 0.13$ rad, obteniendo $\delta g = 3.3 \, \text{m/s}^2$. \\
+$\bar{\theta} = 0.13$ rad, obteniendo $\delta g = 5.5 \, \text{m/s}^2$. \\
 
 Finalmente reportamos el valor de la aceleración de gravedad como: 
-$g = 7.2 \, \pm 3.3 \; \text{m/s}^2$. \\
+$g = 7.2 \, \pm 5.5 \; \text{m/s}^2$. \\
 
 Para la siguiente parte del experimento, como ya obtuvimos el valor de $g$, 
 mediremos la constante elastica de un resorte. Para ello, colgaremos 
@@ -329,7 +329,7 @@ $0.462 \, \text{N/m}$. \\
 Finalmente reportamos $k = 24.1 \, \pm 0.5 \; \text{N/m}$. \\
 
 \section*{Resultados}
-Obtuvimos un valor de $g = 7.18 \, \text{m/s}^2$ con un error de $3.3$ m/s$^2$
+Obtuvimos un valor de $g = 7.2 \, \text{m/s}^2$ con un error de $5.5$ m/s$^2$
 para la constante de gravedad y un valor de $k = 24.07 \,
 \text{N/m}$ con un error de $0.5 \, \text{N/m}$ para la constante elástica 
 del resorte.
@@ -337,7 +337,7 @@ del resorte.
 \section*{Discusión}
 Con respecto al valor de $g$, este se encuentra algo alejado del 
 valor aceptado de $9.81 \,\text{m/s}^2$ y teniendo en cuenta el error asociado,
-este oscila entre $3.3 \,\text{m/s}^2$ y $10.11 \,\text{m/s}^2$. Lo más probable
+este oscila entre $1.7 \,\text{m/s}^2$ y $12.7 \,\text{m/s}^2$. Lo más probable
 es que esto se deba a errores sistemáticos en la medición
 de tiempo, ya que usamos un cronómetro manual, lo que introduce un error
 humano. También asumimos condiciones ideales, como la ausencia de fricción,
@@ -372,6 +372,7 @@ todos los laboratorios que realizamos en lo que va del curso han sido de
 gran utilidad para nuestro aprendizaje y desarrollo como futuros 
 profesionales.
 \vspace{1.3cm}
+
 \section*{Codigos utilizados}
 
 \begin{lstlisting}[language=Python, caption= Código para importar librerias 
@@ -417,7 +418,7 @@ x = 1 / np.sqrt(np.sin(theta_radianes))
 
 \begin{lstlisting}[language=Python, caption= Código para graficar 
    modelo linealizado]
-plt.scatter(x, promedios)
+plt.errorbar(x[1:13], promedios[1:13],yerr=Dt[1:13], fmt="o")
 plt.xlabel("$x$")
 plt.ylabel("$t$ (s)")
 plt.title("$\dfrac{1}{\sqrt{\sin(\\theta)}}$ vs t")
