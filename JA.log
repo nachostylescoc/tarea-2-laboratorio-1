@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.4.30)  22 OCT 2025 16:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.4.30)  22 OCT 2025 17:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -834,64 +834,69 @@ Package pdftex.def Info: img/grafico1.png  used on input line 183.
 (pdftex.def)             Requested size: 212.26868pt x 166.72339pt.
 
 
-<img/grafico2.png, id=34, 373.395pt x 327.2225pt>
+<img/grafico2.png, id=34, 408.52625pt x 319.1925pt>
 File: img/grafico2.png Graphic file (type png)
 <use img/grafico2.png>
-Package pdftex.def Info: img/grafico2.png  used on input line 200.
-(pdftex.def)             Requested size: 205.36787pt x 179.97292pt.
+Package pdftex.def Info: img/grafico2.png  used on input line 202.
+(pdftex.def)             Requested size: 224.69012pt x 175.55641pt.
+
+Overfull \hbox (8.44919pt too wide) in paragraph at lines 202--203
+ [][] 
+ []
+
 
 
 [2 <./img/grafico1.png> <./img/grafico2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--239
+Underfull \hbox (badness 10000) in paragraph at lines 238--241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
+Underfull \hbox (badness 10000) in paragraph at lines 242--244
 
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 243--247
+Underfull \hbox (badness 1448) in paragraph at lines 245--249
 \OT1/cmr/m/n/10 elas-ti-ca de un re-sor-te. Pa-ra ello, col-ga-re-mos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--247
+Underfull \hbox (badness 10000) in paragraph at lines 245--249
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--264
+Underfull \hbox (badness 10000) in paragraph at lines 263--266
 
  []
 
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--314
+Underfull \hbox (badness 10000) in paragraph at lines 311--316
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--326
+Underfull \hbox (badness 10000) in paragraph at lines 324--328
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
 
 
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 336--343
+Underfull \hbox (badness 10000) in paragraph at lines 338--345
 
  []
 
@@ -900,7 +905,7 @@ Underfull \vbox (badness 6910) has occurred while \output is active []
 
 
 
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 376.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 378.
 
 
 [4]
@@ -911,35 +916,35 @@ Package epstopdf Info: Source file: <logo-cc-by-nc-sa.eps>
 (epstopdf)                    date: 2025-10-18 19:26:56
 (epstopdf)                    size: 22855 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=logo-cc-by-nc-sa-eps-converted-to.pdf logo-cc-by-nc-sa.eps>
-(epstopdf)             \includegraphics on input line 453.
+(epstopdf)             \includegraphics on input line 455.
 Package epstopdf Info: Output file is already uptodate.
 <logo-cc-by-nc-sa-eps-converted-to.pdf, id=131, 97.36375pt x 34.1275pt>
 File: logo-cc-by-nc-sa-eps-converted-to.pdf Graphic file (type pdf)
 <use logo-cc-by-nc-sa-eps-converted-to.pdf>
-Package pdftex.def Info: logo-cc-by-nc-sa-eps-converted-to.pdf  used on input line 453.
+Package pdftex.def Info: logo-cc-by-nc-sa-eps-converted-to.pdf  used on input line 455.
 (pdftex.def)             Requested size: 81.9406pt x 28.7226pt.
 
-Underfull \hbox (badness 7203) in paragraph at lines 457--458
+Underfull \hbox (badness 7203) in paragraph at lines 459--460
 []\TS1/cmr/m/n/9 © \OT1/cmr/m/n/9 2025 by the authors.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--458
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
 \OT1/cmr/m/n/9 Sub-mit-ted for pos-si-ble
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--458
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
 \OT1/cmr/m/n/9 open ac-cess pu-bli-ca-tion
  []
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 457--458
+Underfull \hbox (badness 4181) in paragraph at lines 459--460
 \OT1/cmr/m/n/9 un-der the terms and con-di-tions of the Crea-
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 457--458
+Underfull \hbox (badness 5316) in paragraph at lines 459--460
 \OT1/cmr/m/n/9 ti-ve Com-mons At-tri-bu-tion CC BY-NC-SA 4.0
  []
 
@@ -973,7 +978,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  84i,11n,91p,755b,1848s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\nacho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\nacho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1000.pk> <C:\Users\nacho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt0900.pk> <C:\Users\nacho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/nacho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/nacho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/nacho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/nacho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/nacho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/nacho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/nacho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nacho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nacho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/nacho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/nacho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nacho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/nacho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/nacho/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on JA.pdf (5 pages, 389222 bytes).
+Output written on JA.pdf (5 pages, 398203 bytes).
 PDF statistics:
  243 PDF objects out of 1000 (max. 8388607)
  87 named destinations out of 1000 (max. 500000)

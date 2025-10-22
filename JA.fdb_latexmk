@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber JA"] 0 "JA.bcf" "JA.bbl" "JA" 1761162199.56022 -1
-  "JA.bcf" 1761162199 107968 3ae47657c48d9e334bf2cdfe409ed4f3 "pdflatex"
+["biber JA"] 0 "JA.bcf" "JA.bbl" "JA" 1761165242.0233 -1
+  "JA.bcf" 1761165241 107968 3ae47657c48d9e334bf2cdfe409ed4f3 "pdflatex"
   "referencias.bib" 1760839482 1249 95ca4260ca91ae1353355040b44d1c17 ""
   (generated)
   "JA.bbl"
   "JA.blg"
   (rewritten before read)
-["pdflatex"] 1761162197.71125 "c:/Users/nacho/OneDrive/Documents/latex/Laboratorio 1/Tarea 2/JA.tex" "JA.pdf" "JA" 1761162199.56168 0
+["pdflatex"] 1761165239.88015 "c:/Users/nacho/OneDrive/Documents/latex/Laboratorio 1/Tarea 2/JA.tex" "JA.pdf" "JA" 1761165242.02413 0
   "C:/Users/nacho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1759972759 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/nacho/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk" 1760814595 10472 e8187bf40546393157be2c07bbadc396 ""
   "C:/Users/nacho/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1749418731 11548 0443f3e5b3e4d58f13a1a106c1a02844 ""
@@ -180,14 +180,14 @@
   "C:/Users/nacho/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/nacho/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/nacho/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "JA.aux" 1761162199 3103 b4b48e08f299475aaa3dd0d095612d68 "pdflatex"
+  "JA.aux" 1761165241 3103 b4b48e08f299475aaa3dd0d095612d68 "pdflatex"
   "JA.bbl" 1760995068 6047 38f8c1cba502f73c25de9f0a6a56ff95 "biber JA"
-  "JA.out" 1761162198 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "JA.run.xml" 1761162199 2292 876b2ccde7f408905ded8b4c069b24e5 "pdflatex"
-  "JA.tex" 1761162197 17098 926722d1dd747e55a367d18e334bbcd6 ""
-  "c:/Users/nacho/OneDrive/Documents/latex/Laboratorio 1/Tarea 2/JA.tex" 1761162197 17098 926722d1dd747e55a367d18e334bbcd6 ""
+  "JA.out" 1761165241 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "JA.run.xml" 1761165241 2292 876b2ccde7f408905ded8b4c069b24e5 "pdflatex"
+  "JA.tex" 1761165239 17222 f9e3bebd39deea34116621046b6fb641 ""
+  "c:/Users/nacho/OneDrive/Documents/latex/Laboratorio 1/Tarea 2/JA.tex" 1761165239 17222 f9e3bebd39deea34116621046b6fb641 ""
   "img/grafico1.png" 1760830499 75663 72e90c8b1407ea60e3d586363ae10dbf ""
-  "img/grafico2.png" 1760833830 61245 c6b748eabcce2ac2fba45a3acbb66af6 ""
+  "img/grafico2.png" 1761164917 72619 b00c971e1deaaba695537e9ccee0d86d ""
   "img/logo-cfm.png" 1760993134 21987 e0dd537a5451048bced0a419e139f00d ""
   "img/marcaderecha.png" 1760993141 93569 c913265d06509732b7401b377b3576fc ""
   "ja.sty" 1760825214 6186 0b0ed860e6eeef0957b980aa4862ed83 ""
