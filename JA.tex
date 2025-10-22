@@ -154,7 +154,7 @@ En la siguiente tabla mostramos estos promedios:
 \centering
 \begin{tabular}{|c|c|c|c|}
 \hline
-$\theta$ (°) & $\bar{t}$ (s) & $\theta$ (°) & $\bar{t}$ (s) \\
+$\theta$ (°) & $\bar{t}$ $\pm$ 0.005 (s) & $\theta$ (°) & $\bar{t}$ $\pm$ 0.005 (s) \\
 \hline
 1 & 8.70 & 8 & 0.97 \\
 \hline
@@ -210,7 +210,35 @@ ecuación (7) y sabiendo que $\sqrt{\frac{2d}{g}} = m$ podemos despejar $g$:
    g = \dfrac{2d}{m^2}
 \end{equation}
 
-Reportando un valor de $g = 7.18 \, \text{m/s}^2$. \\
+Que nos da un valor de $g = 7.18 \, \text{m/s}^2$. \\
+
+Para estimar el error en $g$, tenemos que 
+\begin{equation}
+   g = g(t,\theta) = \dfrac{2d}{t} \dfrac{1}{\sin(\theta)}
+\end{equation}
+
+Entonces $\delta g$ está dado por:
+\begin{equation}
+   \delta g = \left| \dfrac{\partial g}{\partial t} 
+   \right| \Delta t + \left| \dfrac{\partial g}{\partial \theta} \right| 
+   \Delta \theta
+\end{equation}
+
+Calculando las derivadas parciales tenemos:
+\begin{equation}
+   \dfrac{\partial g}{\partial t} = -\dfrac{4d}{t^3 \sin(\theta)}
+\end{equation}
+y
+\begin{equation}
+   \dfrac{\partial g}{\partial \theta} = -\dfrac{2d \cos(\theta)}{t^2 \sin^2(\theta)}
+\end{equation}
+
+Considerando que $\Delta t$ nos da 0.3 s y $\Delta \theta$ nos da 0.6 rad,
+evaluamos $t$ y $\theta$ con sus respectivos promedios $\bar{t} = 1.93$ s y
+$\bar{\theta} = 0.13$ rad, obteniendo $\delta g = 3.3 \, \text{m/s}^2$. \\
+
+Finalmente reportamos el valor de la aceleración de gravedad como: 
+$g = 7.2 \, \pm 3.3 \; \text{m/s}^2$. \\
 
 Para la siguiente parte del experimento, como ya obtuvimos el valor de $g$, 
 mediremos la constante elastica de un resorte. Para ello, colgaremos 
@@ -287,17 +315,30 @@ más confiables. \\
 Usamos un codigo en python para calcular el promedio de las constantes 
 elasticas obtenidas, resultando en un valor de $k = 31.24 \, \text{N/m}$
 tomando todos los valores y $k = 24.07 \, \text{N/m}$ si solo consideramos
-los valores confiables. Este ultimo valor es el que reportamos como
-resultado final. \\
+los valores confiables. Con respecto al error del promedio este está dado
+por:
+\begin{equation}
+   \delta k = \dfrac{\sigma}{\sqrt{n}}
+\end{equation}
+donde $\sigma$ es la desviación estándar de los valores de $k$ obtenidos
+y $n$ es el número de mediciones. Calculando esto obtenemos un error de
+$0.462 \, \text{N/m}$. \\
+
+Finalmente reportamos $k = 24.1 \, \pm 0.5 \; \text{N/m}$. \\
 
 \section*{Resultados}
-Obtuvimos un valor de $g = 7.18 \, \text{m/s}^2$ para las constante de 
-gravedad y un valor de $k = 24.07 \,
-\text{N/m}$ para la constante elástica del resorte. Con respecto al valor de
-$g$, este se encuentra alejado del valor aceptado de $9.81 \,\text{m/s}^2$,
-lo mas probable es que esto se deba a errores sistematicos en la mediciones
-de tiempo, ya que usamos un cronometro manual, lo que introduce un error
-humano. Tambien asumimos condiciones ideales, como la ausencia de fricción, 
+Obtuvimos un valor de $g = 7.18 \, \text{m/s}^2$ con un error de $3.3$ m/s$^2$
+para la constante de gravedad y un valor de $k = 24.07 \,
+\text{N/m}$ con un error de $0.5 \, \text{N/m}$ para la constante elástica 
+del resorte.
+
+\section*{Discusión}
+Con respecto al valor de $g$, este se encuentra algo alejado del 
+valor aceptado de $9.81 \,\text{m/s}^2$ y teniendo en cuenta el error asociado,
+este oscila entre $3.3 \,\text{m/s}^2$ y $10.11 \,\text{m/s}^2$. Lo más probable
+es que esto se deba a errores sistemáticos en la medición
+de tiempo, ya que usamos un cronómetro manual, lo que introduce un error
+humano. También asumimos condiciones ideales, como la ausencia de fricción,
 lo que pudo haber afectado el resultado. \\
 
 En cuanto al valor de $k$, este se encuentra dentro de un rango aceptable,
@@ -306,9 +347,9 @@ es importante destacar que la precisión del valor de $k$ depende en gran
 medida del valor de $g$ utilizado en los cálculos, asi que es importante 
 mencionar que cualquier error en la medición de $g$ se reflejará en el valor 
 de $k$.
+ 
 
-\section*{Discusión}
-
+\section*{Conclusiones}
 Considerando que el experimento se realizó con herramientas básicas y
 que se asumieron condiciones ideales, los resultados obtenidos son
 razonables. Para mejorar la precisión, se podrían implementar
@@ -316,9 +357,7 @@ métodos de medición mejores y controles experimentales más rigurosos.
 Sin embargo, los resultados obtenidos proporcionan una buena aproximación
 a los valores reales de $g$ y $k$, demostrando que los principios 
 de la fisica pueden ser aplicados con éxito incluso en condiciones 
-de no tanto profesionalismo. 
-
-\section*{Conclusiones}
+de no tanto profesionalismo.
 
 Esta experiencia nos permitió comprender mejor las principales leyes 
 de la mecanica, específicamente la segunda Ley de Newton y la Ley de Hooke.
@@ -330,7 +369,7 @@ durante el experimento o simplemente para automatizar tareas. En resumen,
 todos los laboratorios que realizamos en lo que va del curso han sido de 
 gran utilidad para nuestro aprendizaje y desarrollo como futuros 
 profesionales.
-
+\vspace{1.3cm}
 \section*{Codigos utilizados}
 
 \begin{lstlisting}[language=Python, caption= Código para importar librerias 
